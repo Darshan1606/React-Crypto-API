@@ -7,13 +7,15 @@ import {
   NavMenu,
   NavItem,
   NavLink,
-  NSearchInput
+  NSearchInput,
 } from "./Navbar.styled";
 
 import {
-    SearchOutlined
-  } from '@ant-design/icons';
-
+  SearchOutlined,
+  HomeOutlined,
+  FundProjectionScreenOutlined,
+  PayCircleOutlined,
+} from "@ant-design/icons";
 
 const Navbar = () => {
   const onSearch = (value) => console.log(value);
@@ -25,12 +27,15 @@ const Navbar = () => {
 
         <NavMenu>
           <NavItem>
+            <HomeOutlined />
             <NavLink to="/">Home</NavLink>
           </NavItem>
           <NavItem>
+            <PayCircleOutlined />
             <NavLink to="/currency">Cryptocurrencies</NavLink>
           </NavItem>
           <NavItem>
+            <FundProjectionScreenOutlined />
             <NavLink to="/news">News</NavLink>
           </NavItem>
         </NavMenu>

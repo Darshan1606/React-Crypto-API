@@ -27,15 +27,19 @@ const NavMenu = styled.nav`
 const NavItem = styled.a`
   margin: 1rem;
   text-decoration: none;
+  font-size:18px;
+  font-weight:bold;
+  :hover {
+    color: #cddeff;
+  }
 `;
 
 const NavLink = styled(Link)`
   text-decoration: none;
   color: #fff;
-
+  margin: 0 0.5rem;
   :hover {
     color: #cddeff;
-    opacity: 1;
   }
 `;
 
@@ -54,8 +58,7 @@ const NSearchInput = styled.input`
   font-family: "Source Sans Pro", sans-serif;
   width:100%;
   height:3vh;
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
-    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
   outline: none;
   font-size: 15px;
   border: none;
