@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import Currency from "./components/Currency/Currency";
 import News from "./components/News/News";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/currency/:coinid" element={<Currency />} />
         <Route path="/news" element={<News />} />
       </Routes>
+      <Footer/>
     </>
   );
 }
