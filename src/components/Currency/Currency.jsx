@@ -6,6 +6,7 @@ import { Card, Row, Col, input } from 'antd'
 import { useGetCryptosQuery } from '../../services/cryptoApi'
 import { useState } from 'react'
 
+
 const Currency = ( ) => {
 
   const { data : cryptosList, isFetching } = useGetCryptosQuery();
@@ -33,6 +34,15 @@ const Currency = ( ) => {
          </Col>
       )}
     </Row>
+
+
+
+
+
+
+
+
+
     </>
   )
 }
