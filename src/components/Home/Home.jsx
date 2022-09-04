@@ -3,6 +3,9 @@ import millify from "millify";
 import { Typography, Card, Col, Row, Statistic } from "antd";
 import { Link } from "react-router-dom";
 
+import Currency from "../Currency/Currency";
+import News from "../News/News"
+
 import { useGetCryptosQuery } from "../../services/cryptoApi";
 
 import {
@@ -24,7 +27,9 @@ const Home = () => {
   return (
     <>
       <HeaderBox>
-        <TitleBox className="titlebox"><Title level={2}>Global Crypto Statistic</Title></TitleBox>
+        <TitleBox className="titlebox">
+          <Title level={2}>Global Crypto Statistic</Title>
+        </TitleBox>
         <ContentBox>
           Having an exact hold of the market with precise and solid information
           is essential for any individual who needs to turn into a beneficial
@@ -77,6 +82,7 @@ const Home = () => {
           <Link to="/currencies">Show More</Link>
         </Title>
       </div>
+      <Currency simplified />
 
       <div className="home-heading-container">
         <Title level={2} className="home-title">
@@ -86,8 +92,7 @@ const Home = () => {
           <Link to="/news">Show More</Link>
         </Title>
       </div>
-
-      
+      <News simplified />
     </>
   );
 };

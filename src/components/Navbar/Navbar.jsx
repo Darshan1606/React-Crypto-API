@@ -32,7 +32,7 @@ const Navbar = () => {
           </NavItem>
           <NavItem>
             
-            <NavLink to="/currency"><PayCircleOutlined /> Cryptocurrencies</NavLink>
+            <NavLink to="/currencies"><PayCircleOutlined /> Cryptocurrencies</NavLink>
           </NavItem>
           <NavItem>
             
