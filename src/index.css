@@ -1,9 +1,10 @@
 body {
   margin: 0;
-  font-family: "Sora", sans-serif;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #080808;
+  color: #fff;
 }
 
 code {

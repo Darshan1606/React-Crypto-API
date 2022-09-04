@@ -12,8 +12,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/currency" element={<Currency />} />
-        <Route path="/currency/:coinid" element={<Currency />} />
+        <Route path="/currencies" element={<Currency />} />
+        <Route path="/currencies/:coinid" element={<Currency />} />
         <Route path="/news" element={<News />} />
       </Routes>
       <Footer/>

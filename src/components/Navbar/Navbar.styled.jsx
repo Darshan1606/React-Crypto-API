@@ -5,9 +5,10 @@ const NavbarMain = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #6a67ce;
+  background-color: #080808;
+  border-bottom: 1px solid #6A67CE;
   width: 100%;
-  height: 8vh;
+  height: 12vh;
 `;
 
 const NavLogo = styled.section`
@@ -28,9 +29,9 @@ const NavItem = styled.a`
   margin: 1rem;
   text-decoration: none;
   font-size:18px;
-  font-weight:bold;
+  font-weight: semibold;
   :hover {
-    color: #cddeff;
+    color: #7900FF;
   }
 `;
 
@@ -39,7 +40,7 @@ const NavLink = styled(Link)`
   color: #fff;
   margin: 0 0.5rem;
   :hover {
-    color: #cddeff;
+    color: #6A67CE;
   }
 `;
 

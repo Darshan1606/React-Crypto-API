@@ -27,16 +27,16 @@ const Navbar = () => {
 
         <NavMenu>
           <NavItem>
-            <HomeOutlined />
-            <NavLink to="/">Home</NavLink>
+            
+            <NavLink to="/"> <HomeOutlined /> Home</NavLink>
           </NavItem>
           <NavItem>
-            <PayCircleOutlined />
-            <NavLink to="/currency">Cryptocurrencies</NavLink>
+            
+            <NavLink to="/currency"><PayCircleOutlined /> Cryptocurrencies</NavLink>
           </NavItem>
           <NavItem>
-            <FundProjectionScreenOutlined />
-            <NavLink to="/news">News</NavLink>
+            
+            <NavLink to="/news"><FundProjectionScreenOutlined /> News</NavLink>
           </NavItem>
         </NavMenu>
 
