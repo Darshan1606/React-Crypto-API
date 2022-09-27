@@ -31,12 +31,21 @@ height: 8vh;
 border-radius: 0.3rem;
 `;
 
+const CrytoHead = styled.section`
+display:flex;
+justify-content: space-around;
+align-items: center;
+margin: 5rem 0 0 0;
+
+`;
+
 export {
     TitleBox,
     HeaderBox,
     ContentBox,
     CardBoxes,
-    StatCard
+    StatCard,
+    CrytoHead
 };
 
 

@@ -13,8 +13,8 @@ const NavbarMain = styled.nav`
 
 const NavLogo = styled.section`
   color: white;
-  font-size: 30px;
-  font-weight: 100;
+  font-size: 23px;
+  font-weight: 700;
   margin: 5rem;
 `;
 
@@ -23,6 +23,7 @@ const NavMenu = styled.nav`
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 700;
 `;
 
 const NavItem = styled.a`

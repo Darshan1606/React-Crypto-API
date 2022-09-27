@@ -23,20 +23,20 @@ const Navbar = () => {
   return (
     <>
       <NavbarMain>
-        <NavLogo>Crytpo API</NavLogo>
+        <NavLogo level={2}>Crytpo API</NavLogo>
 
         <NavMenu>
           <NavItem>
             
-            <NavLink to="/"> <HomeOutlined /> Home</NavLink>
+            <NavLink level={2} to="/"> <HomeOutlined /> Home</NavLink>
           </NavItem>
           <NavItem>
             
-            <NavLink to="/currencies"><PayCircleOutlined /> Cryptocurrencies</NavLink>
+            <NavLink level={2} to="/currencies"><PayCircleOutlined /> Cryptocurrencies</NavLink>
           </NavItem>
           <NavItem>
             
-            <NavLink to="/news"><FundProjectionScreenOutlined /> News</NavLink>
+            <NavLink level={2} to="/news"><FundProjectionScreenOutlined /> News</NavLink>
           </NavItem>
         </NavMenu>
 

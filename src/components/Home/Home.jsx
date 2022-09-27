@@ -14,6 +14,7 @@ import {
   ContentBox,
   CardBoxes,
   StatCard,
+  CrytoHead
 } from "./Home.styled";
 
 const { Title } = Typography;
@@ -74,14 +75,11 @@ const Home = () => {
         </CardBoxes>
       </HeaderBox>
 
-      <div className="home-heading-container">
-        <Title level={2} className="home-title">
-          Top 10 Cryptocurrencies in the World
+      <CrytoHead >
+        <Title level={1} className="home-title">
+          Top 50 Cryptocurrencies in the World
         </Title>
-        <Title level={4} className="show-more">
-          <Link to="/currencies">Show More</Link>
-        </Title>
-      </div>
+      </CrytoHead>
       <Currency simplified />
 
       <div className="home-heading-container">
